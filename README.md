@@ -1,8 +1,8 @@
 # cthulhu
 
-AV Evasion, a FoureEye fork
+AV Evasion, a FourEye fork
 
-    it clone https://github.com/foxlox/cthulhu
+    git clone https://github.com/foxlox/cthulhu
 
     cd cthulhu
 
@@ -15,6 +15,4 @@ AV Evasion, a FoureEye fork
     
     
     
-<video width="320" height="240" controls>
-  <source src="https://github.com/foxlox/cthulhu/blob/main/bandicam%202021-08-06%2010-46-25-632.mp4" type="video/mp4">
-</video>
+![immagine](https://user-images.githubusercontent.com/28823598/128512283-4e75f989-f5fd-4e54-b954-7741fc231add.png)

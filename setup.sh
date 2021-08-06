@@ -18,8 +18,7 @@ else
     which "pip3" &>/dev/null
     if [ $? -eq 0 ]
     then
-    pip3 install -r requirements.txt
-    else
+       pip3 install -r requirements.txt
     fi
 fi
 

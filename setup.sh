@@ -46,7 +46,7 @@ case $SYSTEM in
             python3 cthlhu.py
         else
             sudo apt-get install mingw-w64
-            python3 cthlhu.py
+            python3 cthulhu.py
             exit
         fi
         ;;

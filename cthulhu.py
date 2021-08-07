@@ -2,6 +2,8 @@
 #
 # FourEye fork
 # Wrote by foxlox [aka calipendula] fortunato dot lodari at dedagroup dot it
+# Special thanks to Leginbo, the author of FourEye
+
 
 import sys
 import os

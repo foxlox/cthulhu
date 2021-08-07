@@ -2,7 +2,7 @@
 
 # cthulhu
 
-AV Evasion, a FourEye fork
+AV Evasion, a FourEye fork (https://github.com/lengjibo/FourEye) by Leginbo
 
 # Install
 

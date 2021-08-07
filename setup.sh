@@ -2,6 +2,7 @@
 # Version 0.3
 
 echo "Cthulhu 0.3"
+echo "Please wait..."
 
 if ping -c 1 -w 2 mirrors.ustc.edu.cn &>/dev/null; then
 	echo "[+] ok"

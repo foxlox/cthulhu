@@ -1,3 +1,5 @@
+
+
 # cthulhu
 
 AV Evasion, a FourEye fork
@@ -12,7 +14,7 @@ chmod 755 setup.sh
 
 ./setup.sh
 
-python3 cthulu.py
+python3 cthulhu.py
     
     
 ![immagine](https://user-images.githubusercontent.com/28823598/128512455-1bad09e2-9616-4333-ad37-db895705ff02.png)

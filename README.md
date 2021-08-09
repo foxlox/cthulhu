@@ -2,7 +2,7 @@
 
 # cthulhu
 
-AV Evasion, a FourEye fork (by Leginbo https://github.com/lengjibo) 
+AV Evasion, Red Team tool, a FourEye fork (by Leginbo https://github.com/lengjibo) 
 
 # Install
 

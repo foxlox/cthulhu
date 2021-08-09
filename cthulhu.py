@@ -358,7 +358,7 @@ def x86_uuid_execute():
 
 def banner():
     print("Cthulhu 0.3")
-    print("“Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. In his house at R'lyeh dead Cthulhu waits dreaming.”")
+    print("Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. In his house at R'lyeh dead Cthulhu waits dreaming.")
     print("\r\n")
 
 ### end generate

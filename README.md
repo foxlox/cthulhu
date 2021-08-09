@@ -1,4 +1,4 @@
-
+http://www.clker.com/cliparts/0/c/f/0/1194984914309460086elder_sign_nurbldoff_01r.svg.med.png
 
 # cthulhu
 

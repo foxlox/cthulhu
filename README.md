@@ -37,7 +37,7 @@ python3 cthulhu.py
 
 6. $ python3 cthulhu.py -method apc -arch x86 -bin ca.bin -enc rot13
 
-[+]shellcode created: /tmp/shellcode.exe
+    => [+]shellcode created: /tmp/shellcode.exe
 
 8. Bind the right port with netcat on your linux box and wait.
 

@@ -31,7 +31,7 @@ python3 cthulhu.py
 
 3. Build it
 
-4. go to Linux box
+4. go to your Linux box
 
 5. $ donut compiledapp.exe -o ca.bin
 
@@ -39,7 +39,7 @@ python3 cthulhu.py
 
 [+]shellcode created: /tmp/shellcode.exe
 
-8. Bind the right port on your linux box and wait.
+8. Bind the right port with netcat on your linux box and wait.
 
 9. Copy shellcode.exe on Windows box and run it. Don't remember to start your Antivirus.
 

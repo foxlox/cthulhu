@@ -310,11 +310,18 @@ def UUIDShellcode(fname):
         f.write(loads)
 ### end UUID
 
+def created(fname):
+    from os import path
+    if path.exists(fname):
+        print("[+] Created: "+fname)
+     else:
+        print("[!] Error creating shellcode")
+
 ### generate
 def x64cpp_execute():
     try:
         os.system('x86_64-w64-mingw32-g++ ' + '/tmp/shellcode.cpp' + ' -o ' + '/tmp/shellcode.exe' + " --static" + " -w")
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 
@@ -322,36 +329,35 @@ def x64cpp_execute():
 def x86cpp_execute():
     try:
         os.system('i686-w64-mingw32-g++ ' + '-m32 ' + '/tmp/shellcode.cpp' + ' -o ' + '/tmp/shellcode.exe' + " --static" + " -w")
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 
 def x64c_execute():
     try:
         os.system('x86_64-w64-mingw32-gcc ' + '/tmp/shellcode.c' + ' -o ' + '/tmp/shellcode.exe' + " --static" + " -w")
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 
 def x86c_execute():
     try:
         os.system('i686-w64-mingw32-gcc ' + '-m32 ' + '/tmp/shellcode.c' + ' -o ' + '/tmp/shellcode.exe' + " --static" + " -w")
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 
 def x64_uuid_execute():
     try:
         os.system('x86_64-w64-mingw32-gcc ' + '/tmp/shellcode.c' + ' -o ' + '/tmp/shellcode.exe' + " -lrpcrt4" + " --static" + " -w")
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 
 def x86_uuid_execute():
     try:
         os.system('x86_64-w64-mingw32-gcc ' + '-m32 ' + '/tmp/shellcode.c' + ' -o ' + '/tmp/shellcode.exe' + " --static" + " -w" + " -lrpcrt4")
-        os.system('rm -rf '+ '/tmp/shellcode.c')
-        print("[+]shellcode created: /tmp/shellcode.exe\n")
+        created("/tmp/shellcode.exe")
     except:
         print("[-]error\n")
 

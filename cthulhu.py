@@ -314,8 +314,6 @@ def created(fname):
     from os import path
     if path.exists(fname):
         print("[+] Created: "+fname)
-     else:
-        print("[!] Error creating shellcode")
 
 ### generate
 def x64cpp_execute():

@@ -388,7 +388,7 @@ argv = sys.argv[1:4]
 
 def usage():
       print ('usage: python3 cthulu.py -method fiber|apc|png|uuid -arch x86|x64 -bin filename.bin -enc xor|rot13')
-      print ('python3 cthulu.py --help')
+      print ('python3 cthulu.py -h')
       print("\r\nExample: python3 cthulu -method fiber -arch x64 -bin moana.bin -enc xor")
       print("\r\n         python3 cthulu -method uuid -arch x64 -bin moana.bin")
       exit()

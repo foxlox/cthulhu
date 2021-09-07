@@ -41,7 +41,7 @@ python3 cthulhu.py
 
 8. Bind the right port with netcat on your linux box and wait.
 
-9. Copy shellcode.exe on Windows box and run it. Don't remember to start your Antivirus.
+9. Copy shellcode.exe on Windows box and run it. Don't forget to start your Antivirus.
 
 10. Don't upload your shellcode.exe on Virustotal
 
